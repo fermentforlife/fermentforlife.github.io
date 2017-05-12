@@ -1,0 +1,18 @@
+#navPanel{
+	background-image:url("../../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-color:#271D14;
+	background-size: cover;
+}
+
+#navPanel .links li a{
+	color:white;
+}
+
+#navPanel ul.icons.alt li .icon:before{
+	color:white;
+}
+
+#navPanelToggle{
+	font-size:30px;
+}
