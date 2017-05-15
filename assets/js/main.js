@@ -104,10 +104,10 @@
 
 		var	$window = $(window),
 			$body = $('body'),
-			$wrapper = $('#wrapper'),
-			$header = $('#header'),
-			$nav = $('#nav'),
-			$main = $('#main'),
+			$wrapper = $('.wrapper'),
+			$header = $('.header'),
+			$nav = $('.nav'),
+			$main = $('.main'),
 			$navPanelToggle, $navPanel, $navPanelInner;
 
 		// Disable animations/transitions until the page has loaded.
