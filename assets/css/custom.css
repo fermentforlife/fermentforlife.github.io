@@ -1,5 +1,5 @@
 #navPanel{
-	background-image:url("../../images/bg.jpg");
+	background-image:url("../images/menubg.jpg");
 	background-repeat: no-repeat;
 	background-color:#271D14;
 	background-size: cover;
@@ -15,4 +15,12 @@
 
 #navPanelToggle{
 	font-size:30px;
+}
+
+.indexspacing div{
+	word-spacing:3px;
+}
+
+.alignfix{
+	text-align:left;
 }
