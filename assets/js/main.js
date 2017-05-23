@@ -129,13 +129,13 @@
 			$('.scrolly').scrolly();
 
 		// Background.
-			$wrapper._parallax(0.925);
+			$wrapper._parallax(0.95);
 
 		// Nav Panel.
 
 			// Toggle.
 				$navPanelToggle = $(
-					'<a href="#navPanel" id="navPanelToggle">Menu</a>'
+					'<a href="#navPanel" class="navPanelToggle">Menu</a>'
 				)
 					.appendTo($wrapper);
 

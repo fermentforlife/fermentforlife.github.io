@@ -1,8 +1,10 @@
 #navPanel{
-	background-image:url("../images/menubg.jpg");
+	background-image:url("../../images/menubg.jpg");
 	background-repeat: no-repeat;
 	background-color:#271D14;
 	background-size: cover;
+
+	
 }
 
 #navPanel .links li a{
@@ -13,7 +15,7 @@
 	color:white;
 }
 
-#navPanelToggle{
+.navPanelToggle{
 	font-size:30px;
 }
 

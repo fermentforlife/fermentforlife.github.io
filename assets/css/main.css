@@ -4348,7 +4348,7 @@
 
 		}
 
-	.navPanel {
+	#navPanel {
 		-moz-transform: translateX(20rem);
 		-webkit-transform: translateX(20rem);
 		-ms-transform: translateX(20rem);
@@ -4374,16 +4374,16 @@
 		z-index: 10002;
 	}
 
-		.navPanel .links {
+		#navPanel .links {
 			list-style: none;
 			padding-left: 0;
 		}
 
-			.navPanel .links li {
+			#navPanel .links li {
 				border-top: solid 2px #eeeeee;
 			}
 
-				.navPanel .links li a {
+				#navPanel .links li a {
 					border-bottom: 0;
 					display: block;
 					font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -4395,11 +4395,11 @@
 					text-transform: uppercase;
 				}
 
-				.navPanel .links li:first-child {
+				#navPanel .links li:first-child {
 					border-top: 0;
 				}
 
-		.navPanel .close {
+		#navPanel .close {
 			text-decoration: none;
 			-moz-transition: color 0.2s ease-in-out;
 			-webkit-transition: color 0.2s ease-in-out;
@@ -4421,27 +4421,28 @@
 			width: 7rem;
 		}
 
-			.navPanel .close:before {
+			#navPanel .close:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
 				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
+				color: white;
 			}
 
-			.navPanel .close:before {
+			#navPanel .close:before {
 				content: '\f00d';
 				font-size: 1.25rem;
 			}
 
-			.navPanel .close:hover {
+			#navPanel .close:hover {
 				color: #212931;
 			}
 
 			@media screen and (max-width: 736px) {
 
-				.navPanel .close {
+				#navPanel .close {
 					height: 4rem;
 					line-height: 4rem;
 				}
@@ -4450,7 +4451,7 @@
 
 		@media screen and (max-width: 980px) {
 
-			.navPanel {
+			#navPanel {
 				display: block;
 			}
 
@@ -4458,7 +4459,7 @@
 
 		@media screen and (max-width: 736px) {
 
-			.navPanel {
+			#navPanel {
 				padding: 2.5rem 1.75rem;
 			}
 
@@ -4470,7 +4471,7 @@
 			opacity: 0.5;
 		}
 
-		body.is-navPanel-visible .navPanel {
+		body.is-navPanel-visible #navPanel {
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
